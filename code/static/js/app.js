@@ -131,8 +131,8 @@ function init() {
 function optionChanged(newSample) {
 
   // Build charts and metadata panel each time a new sample is selected
-  buildCharts(firstSample);
-  buildMetadata(firstSample);
+  buildCharts(newSample);
+  buildMetadata(newSample);
 }
 
 // Initialize the dashboard
